@@ -18,10 +18,4 @@ This directory contains all the documentation for the FoxCloud project.
 - [Troubleshooting Guide](troubleshooting.md) - Solutions to common issues
 - [Upgrading Guide](upgrading.md) - How to upgrade your deployment
 
-## Image Assets
-
-- `dashboard-preview.png` - Main dashboard preview
-- `status-cards.png` - Status cards UI
-- `fox-icon.png` - Fox icon used in README
-
 Please place these images in this directory for proper rendering of documentation.
