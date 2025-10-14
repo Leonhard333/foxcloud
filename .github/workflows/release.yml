@@ -8,6 +8,8 @@ on:
 jobs:
   release:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
@@ -23,24 +25,18 @@ jobs:
       - name: Build project
         run: npm run build
         
+      - name: Check if dist exists
+        run: |
+          if [ ! -f ./dist/worker.js ]; then
+            echo "Build failed or dist/worker.js not found"
+            ls -la ./dist/
+            exit 1
+          fi
+          
       - name: Create Release
         id: create_release
-        uses: actions/create-release@v1
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        uses: softprops/action-gh-release@v2
         with:
-          tag_name: ${{ github.ref }}
-          release_name: Release ${{ github.ref }}
+          files: ./dist/worker.js
           draft: false
           prerelease: false
-          
-      - name: Upload Release Asset
-        id: upload-release-asset
-        uses: actions/upload-release-asset@v1
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          upload_url: ${{ steps.create_release.outputs.upload_url }}
-          asset_path: ./dist/worker.js
-          asset_name: worker.js
-          asset_content_type: application/javascript
