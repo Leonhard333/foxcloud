@@ -13,7 +13,7 @@ Before deploying, ensure you have:
 
 ## Method 1: Download Pre-built Worker (Recommended for Quick Setup)
 
-1. Download the latest `worker.js` from [Releases](https://github.com/yourusername/foxcloud/releases)
+1. Download the latest `worker.js` from [Releases](https://github.com/code3-dev/foxcloud/releases)
 2. Install Wrangler globally:
    ```bash
    npm install -g wrangler
@@ -28,7 +28,7 @@ Before deploying, ensure you have:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/foxcloud.git
+   git clone https://github.com/code3-dev/foxcloud.git
    cd foxcloud
    ```
 2. Install dependencies:
@@ -138,4 +138,4 @@ Monitor your Worker performance through:
 2. Real-time logs with `wrangler tail`
 3. Custom logging in your application code
 
-For any deployment issues not covered in this guide, please check the [Issues](https://github.com/yourusername/foxcloud/issues) section of the repository or create a new issue.
+For any deployment issues not covered in this guide, please check the [Issues](https://github.com/code3-dev/foxcloud/issues) section of the repository or create a new issue.

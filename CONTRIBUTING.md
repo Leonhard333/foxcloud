@@ -9,7 +9,7 @@ By participating in this project, you agree to abide by our Code of Conduct. Ple
 ## Getting Started
 
 1. Fork the repository
-2. Clone your fork: `git clone https://github.com/yourusername/foxcloud.git`
+2. Clone your fork: `git clone https://github.com/code3-dev/foxcloud.git`
 3. Create a branch for your feature: `git checkout -b feature/your-feature-name`
 4. Make your changes
 5. Test your changes

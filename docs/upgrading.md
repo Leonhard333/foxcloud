@@ -23,7 +23,7 @@ Before upgrading, backup your:
 
 ### Method 1: Pre-built Worker (Recommended for Production)
 
-1. Download the latest `worker.js` from [Releases](https://github.com/yourusername/foxcloud/releases)
+1. Download the latest `worker.js` from [Releases](https://github.com/code3-dev/foxcloud/releases)
 2. Redeploy to Cloudflare Workers:
    ```bash
    wrangler deploy worker.js
