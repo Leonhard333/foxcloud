@@ -72,7 +72,7 @@ npm run deploy
    - `CLOUDFLARE_API_TOKEN`
    - `CLOUDFLARE_ACCOUNT_ID`
 3. Enable GitHub Actions in repository settings
-4. Push to `main` branch to trigger automatic deployment
+4. Push to `master` branch to trigger automatic deployment
 
 ## ⚙️ Environment Variables
 

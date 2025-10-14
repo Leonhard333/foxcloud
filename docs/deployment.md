@@ -52,7 +52,7 @@ Before deploying, ensure you have:
    - `CLOUDFLARE_API_TOKEN`: Your Cloudflare API token
    - `CLOUDFLARE_ACCOUNT_ID`: Your Cloudflare account ID
 3. Enable GitHub Actions in repository settings
-4. Push to `main` branch to trigger automatic deployment
+4. Push to `master` branch to trigger automatic deployment
 5. Configure environment variables in the Cloudflare Dashboard
 
 ### Setting Up Cloudflare Credentials
